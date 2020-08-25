@@ -33,7 +33,7 @@ p {
     font-weight: 300;
 }
 
-images {
+img {
     width: 100%;
 }
 
@@ -112,7 +112,7 @@ header {
 .top-nav {
     width: 100%;
     height: 100vh;
-    position: fixed;
+    position: relative;
     top: -100vh;
     z-index: 50;
     background-color: #16162d;
@@ -131,7 +131,7 @@ header {
 }
 
 li {
-    margin: 0 5rem;
+    margin: 0 2.5rem;
 }
 
 .nav-link {
